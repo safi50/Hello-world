@@ -1,6 +1,5 @@
 /*SYED SAFIULLAH SHAH
-* 356189 BSCS10-C
-*/
+
 #include <stdio.h>
 int main()
 {
