@@ -1,0 +1,39 @@
+#include<stdio.h>
+//Safiullah Shah 
+
+int main()
+{
+    int a[100];
+    int i, j;
+    int l1, counter = 0;
+
+    printf(" Enter total numbers: ");
+    scanf_s("%d", &l1);
+
+    for (i = 0; i < l1; i++)
+    {
+        printf("The value for %d element: ", i + 1);
+        scanf_s("%d", &a[i]);
+    }
+
+    for (i = 0; i < l1; i++)
+    {
+        counter = 0;
+        for (j = 0; j < l1; j++)
+        {
+            if (a[j] == a[i])
+            {
+                counter++;
+            }
+
+        }
+        if (counter < 2)
+        {
+            printf("The unique element(s) is/are \t%d\n", a[i]);
+        }
+
+
+    }
+    return 0;
+
+}
