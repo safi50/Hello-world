@@ -1,3 +1,2 @@
-# Hello-world
-Hi! I am Syed Safi Ullah Shah. Welcome to my new C language and Python repository.
-Below are some of my everyday programs plus a few projects of mine. 
+Hello World! 
+This repo contains all the random coding problems that I solve.
